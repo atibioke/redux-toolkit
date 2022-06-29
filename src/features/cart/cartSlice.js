@@ -60,6 +60,7 @@ const cartSlice = createSlice({
     },
   },
 });
+
 export const { clearCart, removeItem, increase, decrease, calculateTotals } =
   cartSlice.actions;
 
